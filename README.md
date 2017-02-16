@@ -21,10 +21,10 @@ select empno,
            else 'No SAL' end as my_Button 
 from emp
 
-#  p_item_label label created for the button (NAME).
-#  p_attributes Controls HTML tag attributes (such as disabled). p_item_id, p_item_class will overwrite
-#  p_item_id HTML attribute ID. 
-#  p_item_class HTML attribute CLASS.
-#  p_onclick set the the on click function.
+p_item_label label created for the button (NAME).
+p_attributes Controls HTML tag attributes (such as disabled). p_item_id, p_item_class will overwrite
+p_item_id HTML attribute ID. 
+p_item_class HTML attribute CLASS.
+p_onclick set the the on click function.
 
 Have fun
