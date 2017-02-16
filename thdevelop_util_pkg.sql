@@ -1,7 +1,7 @@
   create or replace package thdevelop_util_pkg 
   as
   /**
-  * Generiert das metadaten Skript für eine IR-Region einer Seite.
+  * Give a HTML for Redering a Button
   * @param p_item_label label created for the button (NAME).
   * @param p_attributes Controls HTML tag attributes (such as disabled). p_item_id, p_item_class will overwrite
   * @param p_item_id HTML attribute ID. 
@@ -17,7 +17,7 @@
   return varchar2; 
 
   end thdevelop_util_pkg;
-
+  /
 
   create or replace package body thdevelop_util_pkg 
   as
@@ -59,3 +59,4 @@
   end apex_item_button; 
 
   end thdevelop_util_pkg ;
+  /
