@@ -114,9 +114,3 @@
 
   end thdevelop_util_pkg ;
   /
-
-  thdevelop_util_pkg.get_preview(pi_pdf_id_column => 'PK_ID',
-                                 pi_filename_column => 'FILENAME',
-                                 pi_bolb_column => 'FILE_CONTENT',
-                                 pi_tablename => 'PDF_REGION',
-                                 pi_pdf_id => :P3_REPORTID);
